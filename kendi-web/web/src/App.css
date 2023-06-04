@@ -235,7 +235,6 @@ body::-webkit-scrollbar-thumb:hover {
   clear: both;
 }
 
-/* Diğer stillendirmeler */
 
 
 .ProjectCard:hover {
@@ -290,11 +289,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 24px;
   margin-right: 8px; 
 }
-/* App.css */
 
-/* ... Diğer stillendirmeler ... */
-
-/* Contact Section */
 .ContactSection {
   display: flex;
   flex-direction: column;
@@ -384,21 +379,21 @@ body::-webkit-scrollbar-thumb:hover {
   .ProfileImageContainer {
     width: 200px;
     margin-right: 0;
-    margin-bottom: 20px; /* Ekleme */
+    margin-bottom: 20px; 
   }
 
   .SectionTitle {
     font-size: 20px;
-    text-align: center; /* Ekleme */
+    text-align: center; 
   }
 
   .AboutText {
     font-size: 14px;
-    text-align: center; /* Ekleme */
+    text-align: center;
   }
 
   .LanguagesCarousel {
-    flex-wrap: wrap; /* Ekleme */
+    flex-wrap: wrap; 
     justify-content: center;
   }
 
@@ -421,11 +416,11 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   .ContactSection {
-    margin-top: 20px; /* Değiştirme */
+    margin-top: 20px;
   }
 
   .ContactInfo {
-    flex-direction: column; /* Ekleme */
+    flex-direction: column; 
     align-items: center;
   }
 
@@ -433,22 +428,22 @@ body::-webkit-scrollbar-thumb:hover {
     width: 30px;
     height: 30px;
     margin-right: 0;
-    margin-bottom: 10px; /* Ekleme */
+    margin-bottom: 10px; 
   }
 
   .ContactSection p {
     font-size: 14px;
-    text-align: center; /* Ekleme */
+    text-align: center; 
   }
 
   .ContactList {
-    flex-direction: column; /* Ekleme */
+    flex-direction: column; 
     align-items: center;
     margin-top: 20px;
   }
 
   .ContactItem {
-    margin: 10px 0; /* Değiştirme */
+    margin: 10px 0; 
   }
 
   .ContactItem span {
@@ -462,7 +457,7 @@ body::-webkit-scrollbar-thumb:hover {
 
   .ContactDescription {
     font-size: 12px;
-    text-align: center; /* Ekleme */
+    text-align: center; 
   }
   .ProjectsSection {
     display: flex;
@@ -472,7 +467,7 @@ body::-webkit-scrollbar-thumb:hover {
 
   .ProjectsSection h2 {
     text-align: center;
-    margin-top: 20px; /* İsteğe bağlı olarak yazının üstündeki boşluğu ayarlayabilirsiniz */
+    margin-top: 20px;
   }
 
   .ProjectsSection .ProjectCard {
@@ -480,7 +475,7 @@ body::-webkit-scrollbar-thumb:hover {
     float: none;
   }
   .ContactInfo {
-    flex-direction: column; /* Ekleme */
+    flex-direction: column; 
     align-items: center;
   }
 
@@ -488,12 +483,12 @@ body::-webkit-scrollbar-thumb:hover {
     width: 30px;
     height: 30px;
     margin-right: 0;
-    margin-bottom: -20px; /* Değiştirme */
+    margin-bottom: -20px; 
   }
 
   .ContactSection p {
     font-size: 14px;
     text-align: center;
-    margin-bottom: 5px; /* Ekleme */
+    margin-bottom: 5px; 
   }
 }
