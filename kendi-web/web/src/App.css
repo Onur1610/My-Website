@@ -1,0 +1,356 @@
+body {
+  transition: background-color 1s ease;
+  background-color: #f5f5f5;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px;
+}
+
+.Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.Navigation ul li {
+  margin-right: 10px;
+}
+
+.Navigation ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.MainContent {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.AboutMe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.ProfileImageContainer {
+  width: 1200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.SectionTitle {
+  font-family: 'Arial', sans-serif; 
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.AboutText {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.LanguagesSection {
+  margin-top: 50px;
+}
+
+.LanguagesCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.LanguageCard {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.LanguageCard:hover {
+  transform: translateY(-10px);
+}
+
+.dark-mode .LanguageCard {
+  background-color: #2b2a2a;
+  color: #fff;
+}
+
+.LanguageCard:hover {
+  transform: translateY(-10px);
+}
+
+.LanguageLogo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.LanguageCard h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.LanguageCard p {
+  font-size: 16px;
+  color: #000000;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #aaa #f5f5f5;
+}
+
+body::-webkit-scrollbar {
+  width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 9px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+.DarkModeToggle {
+  background-color: #000000;
+  color: #f5f5f5;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.DarkModeToggle:hover {
+  background-color: #000000;
+}
+
+.DarkModeToggle.dark {
+  color: #f5f5f5;
+}
+
+.DarkModeToggle.dark:hover {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+  
+.dark {
+  background-color: #000000;
+  color: #f5f5f5;
+}
+
+.dark .Navigation ul li a {
+  color: #f5f5f5;
+}
+
+.dark .SectionTitle,
+.dark .AboutText,
+.dark .LanguageCard h3,
+.dark .LanguageCard p {
+  color: #f5f5f5;
+}
+.ProjectsSection {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+.LanguagesSection {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+
+.dark-mode .LanguagesSection  {
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .ProjectsSection {
+  background-color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+.ProjectCard {
+  position: relative;
+  width: 500px;
+  height: 180px;
+  background-color: #b83b5e;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+.ProjectCard:hover {
+  transform: translateY(-5px);
+}
+
+.ProjectCardContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 0 0 16px 16px;
+  text-align: center;
+}
+
+.ProjectCardContent h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.ProjectCardContent p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+.ProjectCardContent .GitHubLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #657985;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+
+.ProjectCardContent .GitHubLink:hover {
+  background-color: #606366;
+}
+
+.ProjectCardContent .GitHubLogo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+/* App.css */
+
+/* ... Diğer stillendirmeler ... */
+
+/* Contact Section */
+.ContactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; 
+}
+.ContactInfo {
+  display: flex;
+  align-items: center;
+}
+
+.ContactLogo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.ContactSection p {
+  margin-bottom: 10px;
+}
+
+
+.ContactInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactLogo {
+  margin: 0 20px; /* Boşluk ayarı */
+  transition: transform 0.3s ease-in-out;
+}
+
+.ContactLogo:hover {
+  transform: scale(1.2); /* Büyütme animasyonu */
+}
+
+
+.ContactList {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.ContactItem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.ContactItem span {
+  margin-left: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.ContactItem span:hover {
+  color: #c42d78;
+}
+
+.ContactLogo {
+  width: 45px;
+  height: 40px;
+}
+
+.ContactDescription {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #888;
+}
