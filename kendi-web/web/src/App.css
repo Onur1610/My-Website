@@ -218,14 +218,25 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .ProjectCard {
   position: relative;
-  width: 500px;
+  width: 390px;
   height: 180px;
-  background-color: #b83b5e;
+  background-color: #1a1a1a;
   border-radius: 16px;
   overflow: hidden;
+  margin-left: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
+  float: left;
 }
+
+.ProjectsSection::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Diğer stillendirmeler */
+
 
 .ProjectCard:hover {
   transform: translateY(-5px);
@@ -243,8 +254,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .ProjectCardContent h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 19px;
+
+
   color: #fff;
 }
 
@@ -259,7 +271,7 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: center;
   background-color: #657985;
   color: #fff;
-  padding: 8px 16px;
+  padding: 8px 16px; 
   font-size: 16px;
   text-decoration: none;
   border-radius: 4px;
@@ -276,7 +288,7 @@ body::-webkit-scrollbar-thumb:hover {
 .ProjectCardContent .GitHubLogo {
   width: 24px;
   height: 24px;
-  margin-right: 8px;
+  margin-right: 8px; 
 }
 /* App.css */
 
