@@ -366,3 +366,134 @@ body::-webkit-scrollbar-thumb:hover {
   font-size: 14px;
   color: #888;
 }
+
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .Navigation {
+    justify-content: center;
+  }
+
+  .AboutMe {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProfileImageContainer {
+    width: 200px;
+    margin-right: 0;
+    margin-bottom: 20px; /* Ekleme */
+  }
+
+  .SectionTitle {
+    font-size: 20px;
+    text-align: center; /* Ekleme */
+  }
+
+  .AboutText {
+    font-size: 14px;
+    text-align: center; /* Ekleme */
+  }
+
+  .LanguagesCarousel {
+    flex-wrap: wrap; /* Ekleme */
+    justify-content: center;
+  }
+
+  .LanguageCard {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .LanguageLogo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .LanguageCard h3 {
+    font-size: 16px;
+  }
+
+  .LanguageCard p {
+    font-size: 14px;
+  }
+
+  .ContactSection {
+    margin-top: 20px; /* Değiştirme */
+  }
+
+  .ContactInfo {
+    flex-direction: column; /* Ekleme */
+    align-items: center;
+  }
+
+  .ContactLogo {
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    margin-bottom: 10px; /* Ekleme */
+  }
+
+  .ContactSection p {
+    font-size: 14px;
+    text-align: center; /* Ekleme */
+  }
+
+  .ContactList {
+    flex-direction: column; /* Ekleme */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .ContactItem {
+    margin: 10px 0; /* Değiştirme */
+  }
+
+  .ContactItem span {
+    font-size: 14px;
+  }
+
+  .ContactLogo {
+    width: 35px;
+    height: 30px;
+  }
+
+  .ContactDescription {
+    font-size: 12px;
+    text-align: center; /* Ekleme */
+  }
+  .ProjectsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProjectsSection h2 {
+    text-align: center;
+    margin-top: 20px; /* İsteğe bağlı olarak yazının üstündeki boşluğu ayarlayabilirsiniz */
+  }
+
+  .ProjectsSection .ProjectCard {
+    margin: 10px auto;
+    float: none;
+  }
+  .ContactInfo {
+    flex-direction: column; /* Ekleme */
+    align-items: center;
+  }
+
+  .ContactLogo {
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    margin-bottom: -20px; /* Değiştirme */
+  }
+
+  .ContactSection p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px; /* Ekleme */
+  }
+}
