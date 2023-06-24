@@ -492,3 +492,6 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 5px; 
   }
 }
+.ProjectCard {
+  margin-top: 10px;
+}
